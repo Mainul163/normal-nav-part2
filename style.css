@@ -1,0 +1,41 @@
+nav{
+    height: 100px;
+    background-color: burlywood;
+    line-height: 60px;
+}
+
+nav ul{
+    position: absolute;
+}
+
+nav >ul>li{
+   
+    list-style: none;
+    float: left;
+    padding: 20px;
+}
+
+nav ul li a:hover{
+      background-color: chartreuse;
+      text-decoration: none;
+    color: black;
+      font-size: 40px;
+     
+}
+
+nav ul li a{
+     color: red;
+}
+nav li{
+    list-style: none;
+   
+}
+.drodwon{
+    background-color:cadetblue;
+    display: none;
+    position: absolute;
+}
+
+nav>ul>li:hover>ul{
+    display: block;
+}
